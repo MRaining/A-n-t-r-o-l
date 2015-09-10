@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<title>设置</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/setting.css" />
+		<script type="text/javascript" src="../script/zepto.min.js"></script>
+		<script type="text/javascript" src="../script/common.js"></script>
+		<script type="text/javascript" src="../script/settinglist.js"></script>
+	</head>
+	<body>
+		<section class="user">
+			<img class="avatar" src="../icon/icon.png" width="60"/>
+			<div>
+				<i class="iconfont">&#xe611;</i><span id="user-name"></span>
+				<br/>
+				<i class="iconfont">&#xe61f;</i><span id="email"></span>
+			</div>
+		</section>
+		<ul class="listview">
+			<!--
+			<li tapmode="active">
+				<div class="switch pull-right on" tapmode>
+					<i></i>
+				</div>
+				接收通知
+			</li>
+			<li tapmode="active">
+				<div class="switch pull-right" tapmode>
+					<i></i>
+				</div>
+				提示音
+			</li>-->
+			<li tapmode="active" id="scan-btn">
+				<i class="iconfont arrow-right"></i><span class="pull-right val">查看设备信息</span>扫一扫
+			</li>
+			<li tapmode="active" id="server">
+				<i class="iconfont arrow-right"></i><span class="pull-right val"></span>服务器
+			</li>
+			<li tapmode="active" id="feedback">
+				<i class="iconfont arrow-right"></i>帮助与反馈
+			</li>
+			<li tapmode="active" id="about">
+				<i class="iconfont arrow-right"></i><span class="pull-right val app-version"></span>关于蚁巡 <em class="badge">new</em>
+			</li>
+		</ul>
+		<ul class="listview">
+			<li tapmode="active" class='signout'>
+				<i class="iconfont arrow-right"></i>安全退出
+			</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+/*
+ * title: 搜索
+ * author: wu xiaolong
+ * date: 2015.06.01
+ * */
+.main{
+	width: 90%;
+	margin: 15px auto 0;
+}
+.search-bar{
+	position: relative;
+	background:#fff;
+	padding: 10px 5%;
+	border-radius: 6px;
+    border: 1px solid #D9DFE5;
+}
+.search-bar input[type='search']{
+	width: 94%;
+}
+.search-btn{
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	text-align: center;
+	color: rgba(49,62,77,0.5);
+}
+.search-btn.active{
+    color: rgba(249,174,52,1);
+}

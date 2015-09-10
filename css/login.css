@@ -1,0 +1,23 @@
+/*
+ * title: 登录
+ * author: wu xiaolong
+ * date: 2015.05.24
+ * */
+.logo{
+	text-align: center;
+	padding: 15% 0;
+	background: radial-gradient(center,circle, rgba(255,255,255,1), rgba(232,238,243,1));
+	background: -webkit-radial-gradient(center,circle, rgba(255,255,255,1), rgba(232,238,243,1) 60%);
+}
+.logo img{
+	width: 80px;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	line-height: 50px;
+	text-align: center;
+	font-size: 14px;
+	color: #999;
+	width: 100%;
+}

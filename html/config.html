@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<title>配置服务器</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/config.css" />
+		<script type="text/javascript" src="../script/zepto.min.js"></script>
+		<script type="text/javascript" src="../script/common.js"></script>
+		<script type="text/javascript" src="../script/config.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<span class="title">配置服务器地址</span>
+		</header>
+		<section class="main">
+			<section class="configTab active">
+				<div class="scan" tapmode="scanBtn">
+					<i class="iconfont">&#xe614;</i>
+					<span>扫描二维码</br>配置服务器</span>
+				</div>
+				<div class="tip">
+					<i class="iconfont">&#xe615;</i>
+					<span>用浏览器打开蚁巡web版本，服务器二维码位于登录界面的右上角。</span>
+				</div>
+			</section>
+			<section class="configTab">
+				<form class="form">
+					<div class="input-area">
+						<label class="label">
+							<input type="text" value="http://"/>
+						</label>
+					</div>
+					<button type="button" tapmode="active" class="button orange">
+						确&nbsp;&nbsp;定
+					</button>
+				</form>
+				<div class="tip">
+					<i class="iconfont">&#xe615;</i>
+					<span>服务器地址需填写 http(s)或端口号</span>
+				</div>
+			</section>
+		</section>
+	</body>
+</html>

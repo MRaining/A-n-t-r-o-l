@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/home.css" />
+		<script type="text/javascript" src="../script/zepto.min.js"></script>
+		<script type="text/javascript" src="../script/common.js"></script>
+		<script type="text/javascript" src="../script/main.js"></script>
+	</head>
+	<body>
+		<section class="stat">
+			<div class="circle error" tapmode="active" data-type="fault">
+				<em>0</em>台 <span>故障设备</span>
+			</div>
+			<div class="circle warning" tapmode="active" data-type="alarm">
+				<em>0</em>台 <span>告警设备</span>
+			</div>
+			<div class="circle normal" tapmode="active">
+				<em>0</em>台 <span>点击查看</span>
+			</div>
+			<div class="total">
+				共 <em>0</em> 台设备
+			</div>
+		</section>
+		<section class="group">
+			<ul></ul>
+		</section>
+		<div class="no-data">
+			<i class="iconfont">&#xe603;</i><span>未连接到网络！</span>
+		</div>
+	</body>
+</html>

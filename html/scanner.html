@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<title>二维码扫描器</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<script type="text/javascript" src="../script/zepto.min.js"></script>
+		<script type="text/javascript" src="../script/common.js"></script>
+		<script  type="text/javascript" src="../script/scanner.js"></script>
+		<style>
+			/* scanner */
+			.scanner {
+				background: #000;
+			}
+			p {
+				position: fixed;
+				bottom: 10%;
+				width: 100%;
+				color: #666;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body class="scanner">
+		<header class="header">
+			<a class="icon-back pull-left" tapmode="active"><i class="iconfont">&#xe60d;</i></a>
+			<span class="title">扫描二维码</span>
+			<a class="icon-flash pull-right" tapmode="active"><i class="iconfont">&#xe61b;</i></a>
+		</header>
+		<p>
+			二维码位于蚁巡  web 版<br/>的登录界面右上角。
+		</p>
+	</body>
+</html>

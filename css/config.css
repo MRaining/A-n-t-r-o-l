@@ -1,0 +1,47 @@
+/*
+ * title: 服务器地址配置
+ * author: wu xiaolong
+ * date: 2015.06.03
+ * */
+.scan {
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255,255,255,1);
+}
+.scan .iconfont {
+	font-size: 80px;
+	color: rgba(249,168,37, 1);
+}
+.scan span {
+	display: block;
+	font-size: 20px;
+	color: #303d4c;
+}
+.scanBtn{
+	opacity: 0.6;
+}
+.tip {
+	border: 1px solid rgba(151,160,170,0.5);
+	padding: 4%;
+	margin: 20% auto 0;
+	background: rgba(255, 255, 255, 0.5);
+}
+.tip .iconfont {
+	font-size: 30px;
+	vertical-align: middle;
+	color: #4bb8e7;
+}
+.tip span {
+	color: #aaa;
+	width: 75%;
+	vertical-align: middle;
+	margin-left: 10px;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+.configTab{
+	display:none;
+	padding-top: 25%;
+}
+.configTab.active{
+	display: block;
+}
